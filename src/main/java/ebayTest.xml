@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<parameter name="appURL" value="https://www.ebay.com/"/>
+<parameter name="browserType" value="chrome"/>
+<parameter name="searchProduct" value="ipad"/>
+<parameter name="resultCount" value="5"/>
+<!-- <parameter name="browserType" value="firefox"/> -->
+  <test name="Test">
+    <classes>
+      <class name="com.ebaytest.tests.EbaySearchTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
